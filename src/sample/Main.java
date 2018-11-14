@@ -41,7 +41,7 @@ public class Main {
         divisionF = remainderE / f;
 
 
-                                System.out.println("Kleinstmögliches Wechselgeld in EUR:");
+        System.out.println("Kleinstmögliches Wechselgeld in EUR:");
         if (divisionA != 0) {   System.out.println(divisionA + " x 50 EURCent-Münze;");}
         if (divisionB != 0) {   System.out.println(divisionB + " x 20 EURCent-Münze;");}
         if (divisionC != 0) {   System.out.println(divisionC + " x 10 EURCent-Münze");}
@@ -58,11 +58,12 @@ public class Main {
         remainderC = remainderB % c, divisionC = remainderB / c,
         divisionD = remainderC / d;
 
-                                System.out.println("Kleinstmögliches Wechselgeld in USD:");
+        System.out.println("Kleinstmögliches Wechselgeld in USD:");
         if (divisionA != 0) {   System.out.println(divisionA + " x 25 Cent-Münze;");}
         if (divisionB != 0) {   System.out.println(divisionB + " x 10 Cent-Münze;");}
         if (divisionC != 0) {   System.out.println(divisionC + " x 5 Cent-Münze;");}
         if (divisionD != 0) {   System.out.println(divisionD + " x 1 Cent-Münze;");}
+
         }
 
 
