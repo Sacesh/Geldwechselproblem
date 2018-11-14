@@ -7,7 +7,7 @@ public class Main {
         int change = 333; // insert number
 
 
-        boolean EUR = true; // if false == USD
+        boolean EUR = false; // if false == USD
         int a, b, c, d, e, f;
 
         if (EUR){
@@ -41,7 +41,7 @@ public class Main {
                     remainderA = change % a, divisionA = change/a,
                     remainderB = remainderA % b, divisionB = remainderA / b,
                     remainderC = remainderB % c, divisionC = remainderB / c,
-                    remainderD = remainderC % d, divisionD = remainderC / d;
+                    divisionD = remainderC / d;
 
             System.out.println("Kleinstmögliches Wechselgeld in USD:");
             if (divisionA != 0) {System.out.println(divisionA + " x 25 Cent-Münze;");}
